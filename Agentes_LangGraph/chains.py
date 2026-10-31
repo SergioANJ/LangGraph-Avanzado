@@ -48,7 +48,7 @@ reflection_prompt = ChatPromptTemplate.from_messages(
 )
 
 # ------------------------------LLAMADA AL MODELO---------------------------------
-llm = ChatOpenAI()
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
 # ------------------------------CREACIÓN DE CADENAS-------------------------------
 
